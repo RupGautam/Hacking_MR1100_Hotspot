@@ -1,7 +1,6 @@
 ### Summary (WIP)
 This project is a script that connects to a device using Telnet, retrieves the device's current IMEI, generates an open lock hash and disables the open lock feature of the device. 
 The script then updates the device's IMEI and reboots the device. The script uses various libraries such as telnetlib, re, sierrakeygen, luhn and sys. 
-The script also uses try-except blocks to handle exceptions and uses the logging module to log important information and errors. The script also uses the read_until() method in place of time.sleep() to wait for expected response before proceeding, which makes the script more efficient. The script also includes proper error handling, proper input validation and makes the code more readable and maintainable by following best practices and using appropriate libraries.
 
 ### How To
 `python3 main.py "10.10.10.1" "your-imei-here"`
